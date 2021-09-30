@@ -1,0 +1,12 @@
+.mainContainer{
+    background: var(--white);
+}
+
+.gridcontainer{
+    width: 100%;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 3rem;
+}

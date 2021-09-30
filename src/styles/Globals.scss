@@ -2,11 +2,38 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
+
+  
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--pink-500) var(--pink-300);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffdbe9;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--pink-500);
+  border-radius: 22px;
+  border: 0px none #ffffff;
 }
 
 :root{
   --white: #FFFFFF;
-  --black: #000
+  --black: #000;
+  --gray-100: #F3F3F4;
+  --gray-300: #9E9EA7;
+  --gray-500: #6e6d7a;
+  --pink-300: #ea4c8920;
+  --pink-500: #EA4C89;
 }
 
 @media(max-width: 1080px) {
